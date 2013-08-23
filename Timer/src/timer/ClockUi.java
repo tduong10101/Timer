@@ -49,6 +49,7 @@ public class ClockUi extends JFrame {
 		
 		this.add(main);
 		this.setLocationRelativeTo(null);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);
 	}
 	public void start(){
